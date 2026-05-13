@@ -1,0 +1,219 @@
+[2026/05/13 16:43:15.475931,  0] source3/smbd/server.c:2119(main)
+  smbd version 4.23.6-Ubuntu-4.23.6+dfsg-1ubuntu2 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/05/13 16:43:15.544086,  1] source3/profile/profile.c:53(set_profile_level)
+  INFO: Profiling turned OFF from pid 1
+[2026/05/13 16:44:36.097688,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|connect|ok|papers
+[2026/05/13 16:44:36.104038,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|realpath|ok|/libraryit/papers
+[2026/05/13 16:44:36.118903,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|realpath|ok|/libraryit/papers
+[2026/05/13 16:44:36.120108,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|stat|ok|/libraryit/papers
+[2026/05/13 16:44:36.120757,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|statvfs|ok|
+[2026/05/13 16:44:36.121183,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|stat|ok|/libraryit/papers
+[2026/05/13 16:44:36.121458,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fs_capabilities|ok|
+[2026/05/13 16:44:36.130548,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|chdir|ok|chdir|/libraryit/papers
+[2026/05/13 16:44:36.131832,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|stat|ok|/libraryit/papers
+[2026/05/13 16:44:36.132250,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|file_id_create|ok|64768:849626:0
+[2026/05/13 16:44:36.133072,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|getwd|ok|/libraryit/papers
+[2026/05/13 16:44:36.133368,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|file_id_create|ok|64768:849626:0
+[2026/05/13 16:44:36.139049,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|openat|ok|r|/libraryit/papers
+[2026/05/13 16:44:36.141010,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fstat|ok|/libraryit/papers
+[2026/05/13 16:44:36.141359,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|file_id_create|ok|64768:849626:0
+[2026/05/13 16:44:36.142789,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|openat|ok|r|/libraryit/papers
+[2026/05/13 16:44:36.143158,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fstat|ok|/libraryit/papers
+[2026/05/13 16:44:36.143426,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|file_id_create|ok|64768:849626:0
+[2026/05/13 16:44:36.151628,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|connectpath|ok|/libraryit/papers
+[2026/05/13 16:44:36.153266,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|file_id_create|ok|64768:849626:0
+[2026/05/13 16:44:36.154733,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|openat|ok|r|/libraryit/papers
+[2026/05/13 16:44:36.156209,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|close|ok|/libraryit/papers
+[2026/05/13 16:44:36.156580,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fstat|ok|/libraryit/papers
+[2026/05/13 16:44:36.157954,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fstat|ok|/libraryit/papers
+[2026/05/13 16:44:36.160341,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|sys_acl_get_fd|ok|/libraryit/papers
+[2026/05/13 16:44:36.160842,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|sys_acl_get_fd|ok|/libraryit/papers
+[2026/05/13 16:44:36.172570,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fget_nt_acl|ok|/libraryit/papers
+[2026/05/13 16:44:36.198141,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|create_file|ok|0x81|dir|open|/libraryit/papers
+[2026/05/13 16:44:36.204149,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fgetxattr|fail (No data available)|/libraryit/papers|user.DOSATTRIB
+[2026/05/13 16:44:36.205429,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fget_dos_attributes|fail (No data available)|/libraryit/papers
+[2026/05/13 16:44:36.210639,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|get_alloc_size|ok|0
+[2026/05/13 16:44:36.213342,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|close|ok|/libraryit/papers
+[2026/05/13 16:44:36.218474,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|chdir|ok|chdir|/libraryit/papers
+[2026/05/13 16:44:36.219012,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|stat|ok|/libraryit/papers
+[2026/05/13 16:44:36.219295,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|file_id_create|ok|64768:849626:0
+[2026/05/13 16:44:36.219631,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|stat|ok|/libraryit/papers
+[2026/05/13 16:44:36.223359,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fdopendir|ok|/libraryit/papers
+[2026/05/13 16:44:36.228895,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|openat|ok|r|/libraryit/papers
+[2026/05/13 16:44:36.229425,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fstat|ok|/libraryit/papers
+[2026/05/13 16:44:36.229828,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|file_id_create|ok|64768:849626:0
+[2026/05/13 16:44:36.231514,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fgetxattr|fail (No data available)|/libraryit/papers|user.DOSATTRIB
+[2026/05/13 16:44:36.231817,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fget_dos_attributes|fail (No data available)|/libraryit/papers
+[2026/05/13 16:44:36.232799,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|get_alloc_size|ok|0
+[2026/05/13 16:44:36.233149,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|freaddir_attr|fail (No data available)|/libraryit/papers
+[2026/05/13 16:44:36.233430,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fs_file_id|ok|849626
+[2026/05/13 16:44:36.236422,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|flistxattr|ok|/libraryit/papers
+[2026/05/13 16:44:36.238584,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|file_id_create|ok|64768:849626:0
+[2026/05/13 16:44:36.239364,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|close|ok|/libraryit/papers
+[2026/05/13 16:44:36.240231,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|openat|ok|r|/libraryit/papers
+[2026/05/13 16:44:36.240521,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fstat|ok|/libraryit/papers
+[2026/05/13 16:44:36.240738,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|file_id_create|ok|64768:849626:0
+[2026/05/13 16:44:36.241139,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fgetxattr|fail (No data available)|/libraryit/papers|user.DOSATTRIB
+[2026/05/13 16:44:36.241354,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fget_dos_attributes|fail (No data available)|/libraryit/papers
+[2026/05/13 16:44:36.241581,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|get_alloc_size|ok|0
+[2026/05/13 16:44:36.241791,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|freaddir_attr|fail (No data available)|/libraryit/papers
+[2026/05/13 16:44:36.242018,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fs_file_id|fail (No data available)|0
+[2026/05/13 16:44:36.242482,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|flistxattr|ok|/libraryit/papers
+[2026/05/13 16:44:36.242790,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|file_id_create|fail (No data available)|0:0:0
+[2026/05/13 16:44:36.243089,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|close|ok|/libraryit/papers
+[2026/05/13 16:44:36.246434,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|readdir|ok|
+[2026/05/13 16:44:36.246913,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|translate_name|fail (No data available)|
+[2026/05/13 16:44:36.247230,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|readdir|ok|
+[2026/05/13 16:44:36.247444,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|translate_name|fail (No data available)|
+[2026/05/13 16:44:36.247894,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|openat|ok|r|/libraryit/papers/oke.txt
+[2026/05/13 16:44:36.248169,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fstat|ok|/libraryit/papers/oke.txt
+[2026/05/13 16:44:36.248374,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|file_id_create|ok|64768:843513:0
+[2026/05/13 16:44:36.249465,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fgetxattr|ok|/libraryit/papers/oke.txt|user.DOSATTRIB
+[2026/05/13 16:44:36.255897,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fget_dos_attributes|ok|/libraryit/papers/oke.txt
+[2026/05/13 16:44:36.256594,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|get_alloc_size|ok|8192
+[2026/05/13 16:44:36.256892,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|freaddir_attr|fail (Operation not supported)|/libraryit/papers/oke.txt
+[2026/05/13 16:44:36.257135,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fs_file_id|ok|843513
+[2026/05/13 16:44:36.257936,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|flistxattr|ok|/libraryit/papers/oke.txt
+[2026/05/13 16:44:36.258278,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|file_id_create|ok|64768:843513:0
+[2026/05/13 16:44:36.258647,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|close|ok|/libraryit/papers/oke.txt
+[2026/05/13 16:44:36.258870,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|readdir|ok|
+[2026/05/13 16:44:36.259075,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|translate_name|fail (Operation not supported)|
+[2026/05/13 16:44:36.259328,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|readdir|ok|
+[2026/05/13 16:44:36.271971,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|readdir|ok|
+[2026/05/13 16:44:36.279791,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|closedir|ok|
+[2026/05/13 16:44:36.285982,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|openat|ok|r|/libraryit/papers
+[2026/05/13 16:44:36.286348,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fstat|ok|/libraryit/papers
+[2026/05/13 16:44:36.286734,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|file_id_create|ok|64768:849626:0
+[2026/05/13 16:44:36.287112,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|openat|ok|r|/libraryit/papers
+[2026/05/13 16:44:36.287417,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fstat|ok|/libraryit/papers
+[2026/05/13 16:44:36.287635,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|file_id_create|ok|64768:849626:0
+[2026/05/13 16:44:36.288400,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|connectpath|ok|/libraryit/papers
+[2026/05/13 16:44:36.288682,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|file_id_create|ok|64768:849626:0
+[2026/05/13 16:44:36.289011,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fstat|ok|/libraryit/papers
+[2026/05/13 16:44:36.289977,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|create_file|ok|0x80|dir|open|/libraryit/papers
+[2026/05/13 16:44:36.290565,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fgetxattr|fail (No data available)|/libraryit/papers|user.DOSATTRIB
+[2026/05/13 16:44:36.290827,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|fget_dos_attributes|fail (No data available)|/libraryit/papers
+[2026/05/13 16:44:36.291195,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|get_alloc_size|ok|0
+[2026/05/13 16:44:36.291707,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|close|ok|/libraryit/papers
+[2026/05/13 16:44:36.295395,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|stat|ok|/libraryit/papers
+[2026/05/13 16:44:36.297703,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|disk_free|ok|/libraryit/papers
+[2026/05/13 16:44:36.304892,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|get_quota|ok|/libraryit/papers
+[2026/05/13 16:44:36.306411,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|get_quota|ok|/libraryit/papers
+[2026/05/13 16:44:36.311463,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|close|ok|/libraryit/papers
+[2026/05/13 16:44:36.314281,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|chdir|ok|chdir|/libraryit/papers
+[2026/05/13 16:44:36.314758,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|stat|ok|/libraryit/papers
+[2026/05/13 16:44:36.315017,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|file_id_create|ok|64768:849626:0
+[2026/05/13 16:44:36.315297,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|stat|ok|/libraryit/papers
+[2026/05/13 16:44:36.315781,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|chdir|ok|chdir|/
+[2026/05/13 16:44:36.316054,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|stat|ok|/libraryit/papers
+[2026/05/13 16:44:36.316260,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|file_id_create|ok|61:426291:0
+[2026/05/13 16:44:36.316515,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|stat|ok|/
+[2026/05/13 16:44:36.316757,  1] source3/modules/vfs_full_audit.c:637(do_log)
+  contributor|papers|disconnect|ok|papers
