@@ -50,8 +50,8 @@ usermod -aG staff librarian
 mkdir -p /libraryit/ebooks /libraryit/papers /libraryit/sourcecode /libraryit/docs
 mkdir -p /logs
 
-touch /logs/libraryit.log
-chmod 664 /logs/libraryit.log
+touch /logs/samba_raw.log /logs/libraryit.log
+chmod 664 /logs/samba_raw.log /logs/libraryit.log
 
 # ebooks & papers: staff rw, readonly r.
 chown root:staff /libraryit/ebooks /libraryit/papers

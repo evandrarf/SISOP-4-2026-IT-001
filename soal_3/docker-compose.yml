@@ -10,3 +10,14 @@ services:
       - ./data/sourcecode:/libraryit/sourcecode
       - ./data/docs:/libraryit/docs
       - ./logs:/logs
+
+  libraryit-logger:
+    image: alpine:3.20
+    container_name: libraryit-logger
+    depends_on:
+      libraryit-server:
+        condition: service_started
+    volumes:
+      - ./logs:/logs
+      - ./logger.sh:/usr/local/bin/logger.sh:ro
+    entrypoint: ["/bin/sh", "/usr/local/bin/logger.sh"]
